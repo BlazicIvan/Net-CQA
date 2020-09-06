@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+
+	<meta charset="UTF-8">
+
+
+	<head>
+		<title>Source Code Quality Report</title>
+		<style>
+			html *
+			{
+			   font-family: Tahoma;
+			   font-size: 11pt;
+			}
+
+			h1
+			{
+				margin: 0px;
+				padding-top: 0px;
+				padding-bottom: 0px;
+				text-align: center;
+				font-size: 36pt;
+			}
+
+			h2
+			{
+				margin: 0px;
+				padding-top: 150px;
+				padding-bottom: 0px;
+				font-size: 24pt;
+			}
+
+			h3
+			{
+				margin: 0px;
+				padding-top: 60px;
+				padding-bottom: 10px;
+				font-size: 18pt;
+ 			}
+			
+			h4
+			{
+				margin: 0px;
+				padding-top: 20px;
+				padding-bottom: 0px;
+				font-size: 15pt;
+ 			}
+
+ 			h4:after
+ 			{
+				content:' ';
+				display:block;
+				border: 1px solid gray;
+        	}
+			
+			h5
+			{
+				margin: 0px;
+				padding-top: 25px;
+				padding-bottom: 5px;
+				font-size: 13pt;
+ 			}
+
+			body
+			{
+				margin-top: 5%;
+				margin-left:  10%;
+				margin-right: 10%;
+				margin-bottom: 100px;
+			}
+
+			p
+			{
+				margin: 0px;
+				padding-top: 5px;
+				padding-bottom: 0px;
+			}
+
+			body
+			{
+				margin-top: 5%;
+				margin-left:  10%;
+				margin-right: 10%;
+			}
+
+			.header
+			{
+				margin-bottom: 50px;
+			}
+
+			td
+			{
+				padding-right: 10px;
+			}
+
+			.sub-content
+			{
+				margin-left: 30px;
+				margin-bottom: 15px;
+			}
+
+			.big-text
+			{
+				margin-top: 10px;
+				font-size: 12pt;
+			}
+
+			.final-grade
+			{
+				font-size: 38pt;
+			}
+			
+			hr
+			{
+				margin-bottom: 30px;
+			}
+
+		</style>
+	</head>
+
+	<body>
+
+        <div class="header">
+            <h1>Source Code Quality Report</h1>
+        </div>
+
+		<h2>About this report</h2>
+		<hr>
+		<div class="sub-content" >
+			<table>
+				<tr>
+					<td class="big-text">Project name:</td>
+					<td class="big-text">$project_name</td>
+				</tr>
+				<tr>
+					<td class="big-text">Date:</td>
+					<td class="big-text">$date</td>
+				</tr>
+			</table>
+			<div class="big-text">
+				$report_description
+			</div>
+		</div>
+
+
+		<h2>Used metrics</h2>
+		<hr>
+		<div class="sub-content">
+			$metric_descriptions
+		</div>
+
+		<h2>Results</h2>
+		<hr>
+		<div class="sub-content">
+			<h3>System level metrics</h3>
+			<div class="sub-content">
+				<div class="system-metrics`">
+					$system_metrics
+				</div>
+			</div>
+
+			<h3>Class level metrics</h3>
+			<div class="sub-content">
+				$class_metrics
+			</div>
+		</div>
+
+		<h2>System quality grade</h2>
+		<hr>
+        <div class="sub-content">
+			<div class="final-grade">$final_grade / $max_grade</div>
+			<h3>Calculated as the average grade of all properties:</h3>
+			<h4></h4>
+			<div class="sub-content">
+				<table>
+					$properties
+				</table>
+			</div>
+        </div>
+	</body>
+</html>

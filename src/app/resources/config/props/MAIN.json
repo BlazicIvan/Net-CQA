@@ -1,0 +1,71 @@
+{
+    "title": "Maintainability",
+
+	"factors":
+	[
+		{
+			"metric": "CBO",
+	        "factor": 0.2
+		},
+		
+		
+		{
+			"metric": "MCI",
+	        "factor": 0.2
+		},
+		
+		
+		{
+			"metric": "NCDC",
+	        "factor": 0.1
+		},
+		
+			
+		{
+			"metric": "DOI",
+	        "factor": 0.1
+		},
+		
+	    
+	    {
+			"metric": "DI",
+	        "factor": 0.1
+		},
+		
+
+		{
+			"metric": "RFC",
+	        "factor": 0.05
+		},
+		
+		
+		{
+			"metric": "DIT",
+	        "factor": 0.05
+		},
+		
+		
+	    {
+			"metric": "IS",
+	        "factor": 0.05
+		},
+
+		
+	    {
+			"metric": "NII",
+	        "factor": 0.05
+		},
+		
+	    
+	    {
+	    	"metric": "NOVF",
+	        "factor": 0.05
+		},
+		
+
+		{
+			"metric": "NSUB",
+	        "factor": 0.05
+		}	
+	]
+}

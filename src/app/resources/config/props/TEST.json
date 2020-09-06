@@ -1,0 +1,41 @@
+{
+    "title": "Testability",
+
+	"factors":
+	[
+		{
+			"metric": "DOI",
+	        "factor": 0.4
+		},
+		
+		
+		{
+			"metric": "CBO",
+	        "factor": 0.25
+		},
+		
+		
+		{
+			"metric": "IS",
+	        "factor": 0.2
+		},
+		
+		
+		{
+			"metric": "NII",
+	        "factor": 0.05
+		},
+		
+				
+		{
+			"metric": "DI",
+	        "factor": 0.05
+		},
+
+
+	    {
+			"metric": "RFC",
+	        "factor": 0.05
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+    "title": "Time performance",
+
+	"factors":
+	[
+	    {
+			"metric": "WMC",
+	        "factor": 0.6
+		},
+		
+		{
+			"metric": "MCI",
+	        "factor": 0.2
+		},
+		
+
+		{
+			"metric": "DIT",
+	        "factor": 0.1
+		},
+		
+		
+	    {
+			"metric": "DOI",
+	        "factor": 0.05
+		},
+		
+				
+	    {
+			"metric": "CBO",
+	        "factor": 0.05
+		}
+	]
+}

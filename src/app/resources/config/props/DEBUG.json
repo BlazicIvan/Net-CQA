@@ -1,0 +1,59 @@
+{
+    "title": "Debugging ability",
+
+	"factors":
+	[
+	    {
+			"metric": "MCI",
+	        "factor": 0.3
+		},	
+		
+			
+	    {
+			"metric": "WMC",
+	        "factor": 0.2
+		},
+		
+		
+		{
+			"metric": "CBO",
+	        "factor": 0.1
+		},
+		
+		
+		{
+			"metric": "DIT",
+	        "factor": 0.15
+		},
+		
+		
+	    {
+	    	"metric": "NOVF",
+	        "factor": 0.05
+		},
+		
+
+	    {
+			"metric": "DOI",
+	        "factor": 0.05
+		},
+		
+	    
+	    {
+			"metric": "NOM",
+	        "factor": 0.05
+		},
+		
+
+		{
+			"metric": "NSUB",
+	        "factor": 0.05
+		},
+	
+	    {
+			"metric": "RFC",
+	        "factor": 0.05
+		}
+	    
+	]
+}

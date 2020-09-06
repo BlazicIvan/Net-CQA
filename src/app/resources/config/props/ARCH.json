@@ -1,0 +1,65 @@
+{
+    "title": "Architecture",
+
+	"factors":
+	[
+		{
+			"metric": "NCDC",
+	        "factor": 0.2
+		},
+
+
+        {
+			"metric": "NDG",
+	        "factor": 0.2
+		},
+
+
+        {
+            "metric": "MCI",
+            "factor": 0.2
+        },
+
+
+        {
+			"metric": "TCC",
+	        "factor": 0.1
+		},
+
+
+        {
+			"metric": "DOI",
+	        "factor": 0.1
+		},
+
+
+        {
+			"metric": "CBO",
+	        "factor": 0.05
+		},
+
+
+        {
+			"metric": "RFC",
+	        "factor": 0.05
+		},
+
+
+        {
+			"metric": "DIT",
+	        "factor": 0.05
+		},
+
+
+        {
+			"metric": "IS",
+	        "factor": 0.025
+		},
+
+
+        {
+			"metric": "NII",
+	        "factor": 0.025
+		}
+	]
+}

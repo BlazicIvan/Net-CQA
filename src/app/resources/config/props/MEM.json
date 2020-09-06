@@ -1,0 +1,35 @@
+{
+    "title": "Memory performance",
+
+	"factors":
+	[
+		
+	    {
+			"metric": "CBO",
+	        "factor": 0.2
+		},
+		
+		{
+			"metric": "MCI",
+	        "factor": 0.2
+		},
+		
+		
+		{
+			"metric": "DIT",
+	        "factor": 0.2
+		},
+		
+		
+	    {
+	    	"metric": "NOVF",
+	        "factor": 0.2
+		},
+		
+	    
+	    {
+			"metric": "WMC",
+	        "factor": 0.2
+		}
+	]
+}

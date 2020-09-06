@@ -1,0 +1,95 @@
+{
+    "CBO": 
+	{
+		"reference": 3,
+		"strategy": "ref-exceed"
+	},
+	
+	
+    "DI":   
+	{
+		"reference": 4,
+		"strategy": "ref-exceed"
+	},
+	
+	"DIT":   
+	{
+		"reference": 5,
+		"strategy": "ref-exceed"
+	},
+	
+    "DOI":  
+	{
+		"reference": 0.3,
+		"strategy": "ref-exceed"
+	},
+	
+    "IS":
+	{
+		"reference": 7,
+		"strategy": "ref-exceed"
+	},
+	
+	
+    "MCI":
+	{
+		"reference": 4,
+		"strategy": "ref-exceed"
+	},
+	
+	
+    "NCDC":
+	{
+		"reference": 0,
+		"strategy": "ref-exceed"
+	},
+	
+	
+    "NDG":
+	{
+		"reference": 1,
+		"strategy": "ref-exceed"
+	},
+	
+    "NII":
+	{
+		"reference": 2,
+		"strategy": "ref-exceed"
+	},
+	
+    "NOM":	
+	{
+		"reference": 8,
+		"strategy": "ref-exceed"
+	},
+	
+    "NOVF":
+	{
+		"reference": 7,
+		"strategy": "ref-exceed"
+	},
+	
+    "NSUB":	
+	{
+		"reference": 4,
+		"strategy": "ref-exceed"
+	},
+	
+    "RFC":	
+	{
+		"reference": 13,
+		"strategy": "ref-exceed"
+	},
+	
+    "TCC":	
+	{
+		"reference": 0,
+		"strategy": "raw-value"
+	},
+	
+    "WMC":	
+	{
+		"reference": 24,
+		"strategy": "ref-exceed"
+	}
+}
