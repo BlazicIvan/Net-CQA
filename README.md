@@ -56,7 +56,7 @@ For more details, read the [configuration instructions](configuration_instructio
 This project was supported by [School of Electrical Engineering, University of Belgrade](https://www.etf.bg.ac.rs/en).
 
 ## Libraries
-The following libraries were used in this project:
+The following libraries were used:
 - JUnit 5.5.2
 - Apache Maven 3.3.9
 - Spoon 7.2.0
