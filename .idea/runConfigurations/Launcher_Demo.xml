@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Launcher-Demo" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="Application.Launcher" />
+    <module name="code-qualty-analysis" />
+    <option name="PROGRAM_PARAMETERS" value="-s ..\..\src\test\src\Examples\DemoExample\ -o ..\..\build\test\Launcher-test -f gexf -n &quot;Launcher_Demo&quot;" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/app" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
